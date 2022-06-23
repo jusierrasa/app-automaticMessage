@@ -1,23 +1,15 @@
 {
-  "name": "message-app",
+  "name": "proyect-app",
   "version": "1.0.0",
-  "description": "Aplicacion de mensajes programados",
+  "description": "Aplicacion de mensajes automaticos",
   "main": "index.js",
   "author": "JS",
   "license": "MIT",
   "private": false,
-  "scripts":{
-    "start":"node index.js",
-    "dev":"nodemon index.js",
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "mysql": "^2.18.1",
-    "sequelize": "^6.21.0",
-    "socket.io": "^4.5.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.18"
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.0"
   }
 }
